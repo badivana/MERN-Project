@@ -1,11 +1,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
-
 ![Express](https://img.shields.io/badge/Express.js-Backend-black)
-
 ![React](https://img.shields.io/badge/React-Frontend-blue)
-
 ![Node.js](https://img.shields.io/badge/Node.js-Runtime-success)
-
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 # 🚀 MERN Stack Project
 
