@@ -1,3 +1,12 @@
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
+
+![Express](https://img.shields.io/badge/Express.js-Backend-black)
+
+![React](https://img.shields.io/badge/React-Frontend-blue)
+
+![Node.js](https://img.shields.io/badge/Node.js-Runtime-success)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
 # 🚀 MERN Stack Project
 
 A full-stack web application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. This project demonstrates modern web development practices, RESTful APIs, database integration, and responsive user interface design.
@@ -52,7 +61,33 @@ MERN-Project/
 ├── README.md
 └── (Frontend & Backend Source Files)
 ```
+## Architure 
+```text
 
+Browser
+     │
+     ▼
+ React Frontend
+     │
+ REST API
+     │
+     ▼
+ Express Server
+     │
+     ▼
+ MongoDB
+ ```
+---
+## API
+ POST /login
+
+POST /register
+
+GET /users
+
+PUT /users/:id
+
+DELETE /users/:id
 ---
 
 # ⚙ Installation
