@@ -95,7 +95,7 @@ npm install
 
 # 📸 Screenshots
 
-Add screenshots of:
+
 
 * Home Page
 * Login Page
