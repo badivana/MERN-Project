@@ -84,6 +84,7 @@ GET /users
 PUT /users/:id
 
 DELETE /users/:id
+
 ---
 
 # ⚙ Installation
