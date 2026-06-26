@@ -1,20 +1,17 @@
 {
-  "name": "mern-task",
+  "name": "quantumtask-mern",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "QuantumTask: Premium Full-Stack Task Hub",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
+    "start": "npm start -w server",
+    "build-client": "npm run build -w client"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.19.3"
+    "concurrently": "^8.2.2"
   }
 }
